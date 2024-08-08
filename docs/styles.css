@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(63, 46, 46);
 }
 .imagem {
     background-image: url('./jogos-para-tavernas.webp');
@@ -18,12 +19,13 @@ body, html {
     backdrop-filter: blur(5px); /* Opcional: Adiciona um efeito de desfoque no fundo */
 }
 .formulario {
-    background: rgb(255, 255, 255);
+    background: rgb(112, 89, 89);
     padding: 2rem;
     border-radius: 15px; /* Bordas semi-arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(224, 196, 38, 0.1);
     width: 100%;
     max-width: 400px; /* Define uma largura máxima para o formulário */
+
 }
 
 @media (max-width: 575.98px) { 
@@ -31,3 +33,8 @@ body, html {
         background-size: cover;
     }
  }
+ input {
+    background-color: rgb(196, 186, 174) !important;
+    border:var(--bs-border-width) transparent var(--bs-border-color) !important;
+ }
+ 
