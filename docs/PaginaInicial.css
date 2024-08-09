@@ -23,11 +23,13 @@ body {
     display: block;
     padding: 10px;
     margin-bottom: 5px;
-    border-radius: 4px;s
+    border-radius: 4px;
 }
+
 .sidebar a:hover {
     background-color: #34495e;
 }
+
 .main-content {
     margin-left: 250px;
     padding: 20px;
@@ -78,3 +80,4 @@ body {
     margin-top: 200px;
     
 }
+
