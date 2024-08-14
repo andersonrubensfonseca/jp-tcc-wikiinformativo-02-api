@@ -176,3 +176,7 @@ footer {
 a {
     color: white;
 }
+
+.elemento-ancorado{
+    scroll-margin-top: 80px;
+}
