@@ -165,7 +165,7 @@ header {
 }
 
 footer {
-    background-color: #333;
+    /* background-color: #333; */
     color: white;
     text-align: center;
     padding: 10px;
@@ -182,3 +182,11 @@ a {
 .elemento-ancorado{
     scroll-margin-top: 80px;
 }
+ .modal-dialog{
+    padding-top: 300px;
+ }
+ .search-box button {
+    background-color: #7a3f28;
+    color: #ffffff;
+    border: #7a3f28;
+ }
